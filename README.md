@@ -1,12 +1,12 @@
 # ROS simple example
-This is learning of ROS with this tutorial:  
+This is a learning of ROS with this tutorial:  
 [Writing a Simple Publisher and Subscriber (C++)](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)  
 I made this in Docker.
   
 Get docker image:  
 ```docker pull ros:rolling-ros1-bridge-focal```  
 Run the image:  
-```docker run -it -v /mnt/disk3tb/freelance/ros_learning/root:/root ros:rolling-ros1-bridge-focal /bin/bash```
+```docker run -it -v /mnt/disk3tb/freelance/ros_learning/root:/root ros:rolling-ros1-bridge-focal /bin/bash```  
 here I share /root internal folder to external folder to be able to save data after close the docker container.  
 Setup ROS 1:  
 ```unset ROS_DISTRO```  
@@ -59,7 +59,7 @@ result:
 /rosout
 /talker
 ```
-kill the nodes:  
+kill nodes:  
 ```rosnode kill -a```  
 ctrl-C  
 
