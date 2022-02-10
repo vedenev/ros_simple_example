@@ -1,5 +1,5 @@
 # ROS simple example
-This is learning of ROS by this tutorial:  
+This is learning of ROS with this tutorial:  
 [Writing a Simple Publisher and Subscriber (C++)](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)  
 I made this in Docker.
   
