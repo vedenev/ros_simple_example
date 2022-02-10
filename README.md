@@ -22,7 +22,7 @@ Create package beginner_tutorials:
 Install nano editor:  
 ```apt update```  
 ```apt install nano```  
-create [talker.cpp](./catkin_ws/src/beginner_tutorials/src/talker.cpp) and [listener.cpp](./catkin_ws/src/beginner_tutorials/src/listener.cpp), see [Writing a Simple Publisher and Subscriber (C++)](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)  
+create [talker.cpp](./catkin_ws/src/beginner_tutorials/src/talker.cpp) and [listener.cpp](./catkin_ws/src/beginner_tutorials/src/listener.cpp), modify [CMakeLists.txt](catkin_ws/src/beginner_tutorials/CMakeLists.txt), see [Writing a Simple Publisher and Subscriber (C++)](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)  
 compile:  
 ```cd ~/catkin_ws```  
 ```catkin_make```  
