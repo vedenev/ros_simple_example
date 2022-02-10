@@ -1,7 +1,7 @@
 # ROS simple example
 This is a learning of ROS with this tutorial:  
 [Writing a Simple Publisher and Subscriber (C++)](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)  
-I made this in Docker.
+I made this in a Docker container.
   
 Get docker image:  
 ```docker pull ros:rolling-ros1-bridge-focal```  
