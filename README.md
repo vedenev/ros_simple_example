@@ -59,6 +59,10 @@ result:
 /rosout
 /talker
 ```
+kill the nodes:  
+```rosnode kill -a```  
+ctrl-C  
+
 
 
 
